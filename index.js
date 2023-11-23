@@ -2,8 +2,7 @@ import express from "express";
 import userRouter from "./routes/user.routers.js";
 import postRouter from "./routes/post.routers.js";
 
-
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT8 || 8080;
 
 const app = express();
 
